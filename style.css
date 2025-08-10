@@ -1,0 +1,80 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f0f0f0;
+}
+button {
+  font-size: 2rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  width: 80%;
+  max-width: 300px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.yesno button {
+  background-color: #4a90e2; /* 青色 */
+  color: white;
+}
+.yesno button.selected-yesno {
+  background-color: #003d99 !important; /* 濃い青 */
+}
+.category {
+  margin-bottom: 1rem;
+}
+.category-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.3rem;
+}
+.category button {
+  background-color: #f5a623; /* オレンジ色 */
+  color: white;
+  flex: 1 1 auto;
+}
+.category button.add-word-btn {
+  background-color: #2a9d8f; /* 緑色 */
+  max-width: 100px;
+  flex: 0 0 auto;
+}
+.category button.selected-category {
+  background-color: #d9822b !important; /* 濃いオレンジ */
+}
+.add-word-input {
+  margin-bottom: 0.8rem;
+}
+.add-word-input input {
+  font-size: 1.6rem;
+  padding: 0.5rem;
+  width: 60%;
+  max-width: 250px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-right: 0.5rem;
+}
+.add-word-input button {
+  font-size: 1.6rem;
+  padding: 0.5rem 1rem;
+  background-color: #2a9d8f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.options button {
+  background-color: #666;
+  color: white;
+  border-radius: 6px;
+}
+.control button {
+  background-color: #999;
+  color: white;
+  border-radius: 6px;
+}
+.selected {
+  font-size: 3rem;
+  color: red;
+  margin-top: 2rem;
+}
